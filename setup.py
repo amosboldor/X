@@ -50,10 +50,10 @@ setup(
     install_requires=requires,
     entry_points={
         'paste.app_factory': [
-            'main = pyramid:main',
+            'main = X:main',
         ],
         'console_scripts': [
-            'initialize_pyramid_db = pyramid.scripts.initializedb:main',
+            'initialize_pyramid_db = X.scripts.initializedb:main',
         ],
     },
 )
