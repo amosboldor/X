@@ -1,0 +1,3 @@
+[run]
+source = X
+omit =X/test*
