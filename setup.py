@@ -32,6 +32,7 @@ setup(
     long_description=README + '\n\n' + CHANGES,
     classifiers=[
         'Programming Language :: Python',
+        'Template Language :: Jinja2'
         'Framework :: Pyramid',
         'Topic :: Internet :: WWW/HTTP',
         'Topic :: Internet :: WWW/HTTP :: WSGI :: Application',
